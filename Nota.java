@@ -2,16 +2,16 @@ package Main;
 
 import java.util.ArrayList;
 
-public class Notas {
-    ArrayList<Trabalhos> tra = new ArrayList<Trabalhos>();
-    ArrayList<Provas> pro = new ArrayList<Provas>();
+public class Nota {
+    ArrayList<Trabalho> tra = new ArrayList<Trabalho>();
+    ArrayList<Prova> pro = new ArrayList<Prova>();
 
     public void addtrab (String nome, double nota, double peso){
-        Trabalhos trabalhos = new Trabalhos(nome, nota, peso);
+        Trabalho trabalhos = new Trabalho(nome, nota, peso);
         tra.add(trabalhos);
     }
     public void addpro (String nome, double nota, double peso){
-        Provas provas = new Provas(nome, nota, peso);
+        Prova provas = new Prova(nome, nota, peso);
         pro.add(provas);
     }
     public double calnotapeso (){
