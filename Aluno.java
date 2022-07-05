@@ -1,6 +1,6 @@
 package Main;
 
-public class Alunos {
+public class Aluno {
     String nome;
     Notas notas = new Notas();
 
