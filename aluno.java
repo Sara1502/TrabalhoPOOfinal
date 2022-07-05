@@ -1,4 +1,3 @@
-
 package Main;
 
 public class Alunos {
@@ -8,13 +7,13 @@ public class Alunos {
     public Alunos(String nome) {
         this.nome = nome;
     }
-    public void notasTrab (String nome, double nota, double peso){
-        this.notas.addTrab(nome, nota, peso);
+    public void notastrab (String nome, double nota, double peso){
+        this.notas.addtrab(nome, nota, peso);
     }
-    public void notasPro (String nome, double nota, double peso){
-        this.notas.addPro(nome, nota, peso);
+    public void notaspro (String nome, double nota, double peso){
+        this.notas.addpro(nome, nota, peso);
     }
-    public double mediaFinal() {
+    public double mediafinal() {
         return notas.calnotapeso()/notas.somapeso();
     }
 
