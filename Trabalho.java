@@ -1,6 +1,6 @@
 package Main;
 
-public class Trabalhos {
+public class Trabalho {
     String nome;
     double nota;
     double peso;
