@@ -4,7 +4,7 @@ public class Aluno {
     String nome;
     Notas notas = new Notas();
 
-    public Alunos(String nome) {
+    public Aluno(String nome) {
         this.nome = nome;
     }
     public void notastrab (String nome, double nota, double peso){
